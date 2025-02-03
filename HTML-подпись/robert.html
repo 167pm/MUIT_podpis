@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Stolzl';
+            src: url('https://muit-msk.ru/podpishtml/fonts/denistina_en.ttf') format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'Denistina';
+            src: url('/HTML-подпись/Denistina/denistina_en.ttf') format('truetype');
+        }
+        .name {
+            font-family: 'Montserrat';
+            font-size: 15px;
+            color: #1E3A80;
+            font-weight: 500;
+            line-height: 20px;
+            /* margin-bottom: 10px; */
+        }
+        .post {
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 8px;
+            line-height: 13px;
+            color: #787B84;
+        }
+        .address-text{
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 6px;
+            line-height: 15px;
+            color: #000000;
+            margin: 0;
+        }
+        .description{
+            font-family: 'Denistina';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 13px;
+            color: #000000;
+        }
+        .signature{
+            display: flex;
+            width: 100%;
+        }
+        .photo{
+            height: 140px;
+            width: 140px;
+            margin-right: 30px;
+        }
+        .photo-img{
+            height: 140px;
+            width: 140px;
+        }
+        .contact-block{
+            display: flex;
+            align-items: center;
+        }
+        .icon{
+            color: #000000;
+            width: 10px;
+            height: 10px;
+            margin-right: 3px;
+        }
+        .phone-mail{
+            display: flex;
+            width: 170px;
+            justify-content: space-between;
+        }
+        .description-title {
+            margin-top: 10px;
+        }
+        img.partner {
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signature">
+        <div class="photo">
+            <img src="https://muit-msk.ru/podpishtml/robert.png" alt="" class="photo-img">
+        </div>
+        <div class="main">
+            <h1 class="name">Асанов Роберт Андреевич</h1>
+            <h2 class="post">Заместитель председателя координационного совета<br>Руководитель Департамента корпоративного обучения</h2>
+            <div class="contact-block">
+                <img src="https://muit-msk.ru/podpishtml/address.svg" alt="" class="icon">
+                <h3 class="address-text">Москва, ул. Гостиничная, д. 5, аудитория 307</h3>
+            </div>
+            <div class="phone-mail">
+                <div class="contact-block">
+                    <img src="https://muit-msk.ru/podpishtml/phone.svg" alt="" class="icon">
+                    <h3 class="address-text">8(962)992-39-99</h3>
+                </div>
+                <div class="contact-block">
+                    <img src="https://muit-msk.ru/podpishtml/mail.svg" alt="" class="icon">
+                    <h3 class="address-text">asanov@muit-msk.ru</h3>
+                </div>
+            </div>
+            <div class="description-title">
+                <img src="/HTML-подпись/Ваш надежный образовательный партнер!.png" alt="" class="partner">
+            </div>
+            <h4 class="description">Ваш надежный образовательный партнер!</h4>
+        </div>
+    </div>
+</body>
+</html>
